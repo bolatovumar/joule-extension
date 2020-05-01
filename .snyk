@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - ant-design-pro > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - antd > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - css-loader > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - node-sass > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - antd > rc-form > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - antd > rc-steps > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - antd > rc-table > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - antd > rc-tabs > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - remote-redux-devtools > redux-devtools-instrument > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - remote-redux-devtools > remotedev-utils > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - babel-plugin-import > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - ant-design-pro > @antv/data-set > dagre > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - antd > rc-editor-mention > rc-editor-core > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - ant-design-pro > @antv/data-set > dagre > graphlib > lodash:
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @svgr/core > h2x-core > h2x-parse > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-05-01T06:16:50.949Z'
